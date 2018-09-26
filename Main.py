@@ -1,3 +1,11 @@
+# Jody Bailey
+# 09/26/2018
+# Artificial Intelligence
+# This program is used to generate random mazes. It creates a single entry point, 'E', along
+# the left side of the maze and randomly creates a path to one of the other three
+# walls. Once it is complete, it places an 'X' to mark the exit point. Then the maze is
+# saved into a text file in the user directory.
+
 from subpackage.MazeGen import MyMaze
 
 # Initialize a list with 10 chars 'W'
