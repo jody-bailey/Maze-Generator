@@ -116,7 +116,7 @@ while 1:
 print()
 for row in maze:
     print(' '.join([str(elem) for elem in row]))
-
+print()
 # Save the maze in a text file named maze.txt in the user directory
 # C:\Users\{user}\maze.txt
 test.saveFile(maze)

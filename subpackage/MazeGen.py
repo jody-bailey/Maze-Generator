@@ -253,6 +253,8 @@ class MyMaze:
         # Close the file
         file.close()
 
+        print('File saved at location: {}'.format(file.name))
+
     # Method to get the next move. A random number is generated and used to determine
     # which block of code is ran. Depending on the block of code that is selected,
     # the program will try to move that particular direction. If unsuccessful, it
